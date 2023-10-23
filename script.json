@@ -1,0 +1,58 @@
+{
+  "TP1": {
+    "titulo": "TP 1 - Formularios y Javascript",
+    "descripcion": "El objetivo de este trabajo practico es repasar los conceptos basicos de javascript y poder aplicarlos de forma practica. Se plantea crear un formulario html que contenga los siguientes elementos: Input de texto para ingresar la nota de Matematica Input de texto para ingresar la nota de Lengua Input de texto para ingresar la nota de EFSI Un div donde se visualice el resultado obtenido Los siguientes botones: Calcular Promedio del alumno Mostrar la materia que mayor nota obtuvo",
+    "imagenes": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKE4scGIudY3TcHCJralOPuCuwhNZZ7BSqJw&usqp=CAU",
+    "fechaCreacion": "20-03-2023",
+    "url": "https://campus.ort.edu.ar/secundaria/almagro/informatica/tp/1910160/tp-1-formularios-y-javascript"
+  },
+  "TP3": {
+    "titulo": "TP 3 - Buscador de Películas",
+    "descripcion": "El TP 3 consiste en desarrollar una página en donde pueda buscar películas utilizando la API de OMDB. La página deberá mostrar un sector de filtros, donde pueda ingresar un texto a buscar (único parámetro obligatorio), un select donde pueda seleccionar si estoy buscando una película, serie o episodio, un input donde pueda ingresar el año y un botón BUSCAR. El botón buscar deberá llamar a la API de OMDB, y mostrar los resultados obtenidos en una tabla.",
+    "imagenes": "https://static.amazon.jobs/teams/53/images/IMDb_Header_Page.jpg?1501027252",
+    "fechaCreacion": "08-05-2023",
+    "url": "https://github.com/MatiasBurecovics/Tp3-Buscador-de-peliculas"
+  },
+  "TP4": {
+    "titulo": "TP 4 - Gestor de Citas",
+    "descripcion": "El objetivo de este TP es comenzar a jugar con React. Deberán pasar el HTML adjunto a componentes en un proyecto react creado con el comando: npx create-react-app citas. En caso que no funcione el comando directamente recuerden hacer npm install -g create-react-app. Deberán usar Props para los datos de cada cita.",
+    "imagenes": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/NP7E66F425GWBP2MEPAOE2YI4E.jpg",
+    "fechaCreacion": "05-06-2023",
+    "url": "https://github.com/MatiasBurecovics/TP4CITAS"
+  },
+  "TPDiagnostico": {
+    "titulo": "TP Diagnóstico",
+    "descripcion": "En este tp vamos a poner en práctica lo que sabemos y aprendimos de HTML, CSS y Bootstrap. Para esto tenemos un diseño en Figma: El cual tenemos que pasar a código haciendo de este una web responsive.",
+    "imagenes": "https://cdn-icons-png.flaticon.com/512/1453/1453592.png",
+    "fechaCreacion": "08-03-2023",
+    "url": "https://github.com/MatiasBurecovics/TP-Diagnostico"
+  },
+  "TP2": {
+    "titulo": "TP 2: TODO List",
+    "descripcion": "El objetivo del TP es hacer una TODO List. Lo que significa que es una lista donde uno puede agregar cosas TO DO (para hacer). Consiste de un input donde se ingresa lo que tengo que hacer, un botón para agregar el item a la lista, y una lista donde se muestran todos los items que se fueron agregando. Cada item puede ser marcado como resuelto y aparecerá en la lista tachado.",
+    "imagenes": "https://static.vecteezy.com/system/resources/previews/026/153/948/non_2x/cartoon-to-do-list-icon-in-comic-style-checklist-task-list-sign-illustration-pictogram-reminder-business-splash-effect-concept-vector.jpg",
+    "fechaCreacion": "16-04-2023",
+    "url": "https://github.com/MatiasBurecovics/TP-2-TODO-List/tree/main/Tp2_EFSI"
+  },
+  "TP6": {
+    "titulo": "TP 6: Jugando con banderas",
+    "descripcion": "Utilizaremos la API: https://countriesnow.space/api/v0.1/countries/flag/images (más info), la cual nos devuelve nombres de paises y sus banderas. Por medio de useEffect obtendremos todos los paises. Una vez recibida la respuesta, aleatoriamente obtendremos una y esa será la que el jugador deberá adivinar. Guardaremos la seleccionada en un state, y el usuario tendra que ir arriesgando a que pais pertenece la bandera. Donde cada vez que adivine, suma 10 puntos y cada vez que no adivine, reste 1 punto. Los puntos deberán estar guardados en un state y mostrados en pantalla.",
+    "imagenes": "https://cdn-icons-png.flaticon.com/512/1453/1453592.png",
+    "fechaCreacion": "10-07-2023",
+    "url": "https://github.com/MatiasBurecovics/TP6Jugandoconbanderas"
+  },
+  "TP7": {
+    "titulo": "TP 7: Directorio de personas",
+    "descripcion": "El objetivo de este TP es utilizar React Router para generar una aplicación en React que contenga más de una ruta. Se recomienda leer con atención la presentación de React Router. La aplicación tendrá: Página index o home: mostrará un listado de personas, y un menú para la navegación entre páginas. Página persona: recibirá un ID por parámetro en la URL y mostrará la información de esa persona. Página estadísticas: Mostrará datos de todas las personas: Cuántos mayores de 35 años hay Quién es la persona de mayor edad, y si hay más de una todos los nombres. Quién es la persona de menor edad, y si hay más de una todos los nombres. Página de contacto: mostrará un formulario para ingresar nombre, apellido, email y edad. No hace falta que haga nada el formulario.",
+    "imagenes": "https://media.istockphoto.com/id/1318515492/es/vector/grupo-de-hombres-y-mujeres-seis-personas-de-pie-en-una-fila-ilustraci%C3%B3n-vectorial-de-grupo.jpg?s=612x612&w=0&k=20&c=mxZviZ781bK9vVVaVbMuWZqalSFaeCS4zxTV697eqvo=",
+    "fechaCreacion": "06-09-2023",
+    "url": "https://github.com/MatiasBurecovics/TP7_DIRECTORIO"
+  },
+  "TPCatalogo": {
+    "titulo": "TP - Catálogo de Productos",
+    "descripcion": "El objetivo del TP es hacer dinámico la web de productos, utilizando la api de https://dummyjson.com/docs/products Dicha API provee métodos para listar productos, filtrar por categorías, obtener categorías y más. Hasta el momento, nuestro portal es estático y solo navega entre páginas sin tener contenido real. El foco del tp va a ser el de integrar todos los conocimientos vistos hasta el momento, sumando context para el almacenamiento de información global, común a varios componentes (por ejemplo, categorias, usuario, carrito,etc).",
+    "imagenes": "https://thumbs.dreamstime.com/b/catalogue-el-icono-ejemplo-en-fondo-blanco-106337455.jpg",
+    "fechaCreacion": "19-10-2023",
+    "url": "https://github.com/MatiasBurecovics/TPCatalogodeProductos"
+  }
+}
