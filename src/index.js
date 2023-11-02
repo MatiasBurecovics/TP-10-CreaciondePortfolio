@@ -6,6 +6,7 @@ import Home from '../src/screens/Home';
 import MisCreaciones from '../src/screens/MisCreaciones'
 import InfoPersonal from '../src/screens/InfoPersonal';
 import Favoritos from '../src/screens/Favoritos'
+import ContactoFooter from './components/ContactoFooter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,8 @@ root.render(
           <Route path="/favoritos" element={<Favoritos />}></Route>
           </Route>
         </Routes>
+        <ContactoFooter/>
     </BrowserRouter>
+  
   </React.StrictMode>
 );
