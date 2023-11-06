@@ -1,27 +1,36 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from "react";
+import axios from "axios";
+import './Home.css'
 
-const Home = ({ creaciones }) => {
+function Home() {
+  const [TPS, setTPS] = useState([]);
   const [favoritos, setFavoritos] = useState([]);
 
-  const agregarFavorito = (creacion) => {
-    setFavoritos([...favoritos, creacion]);
-  }
+
+  useEffect(() => {
+    axios.get("http://localhost:3000/script.json")
+    .then((response) => {
+      setTPS(response.data.TPS);
+    });
+  }, []);
+  const handleFavoriteClick = (index) => {
+    const TPSSeleccionada = TPS[index];
+    setFavoritos([...favoritos, TPSSeleccionada]);
+  };
 
   return (
-    <div>
-      <h1>Creaciones Destacadas</h1>
-      {creaciones.slice(0, 6).map(creacion => (
-        <div key={creacion.titulo}>
-          <h2>{creacion.titulo}</h2>
-          <p>{creacion.descripcion}</p>
-          <button onClick={() => agregarFavorito(creacion)}>Agregar a Favoritos</button>
-        </div>
-      ))}
-
-      <h2>Favoritos</h2>
-      {favoritos.map(favorito => (
-        <div key={favorito.titulo}>
-          <h3>{favorito.titulo}</h3>
+<div className="home-container">
+      <h1>TPS Destacados</h1>
+      {TPS.slice(0, 6).map((TPS, index) => (
+        <div className="creacion-card" key={index}>
+          <h3>{TPS.titulo}</h3>
+          <p>{TPS.descripcion}</p>
+          <img src={TPS.imagenes} alt={TPS.titulo} />
+          <p>Fecha de Creación: {TPS.fechaCreacion}</p>
+          <a href={TPS.url} target="_blank" rel="noopener noreferrer">
+            Ver más
+          </a>
+          <button onClick={() => handleFavoriteClick(index)}>Agregar a Favoritos</button>
         </div>
       ))}
     </div>
