@@ -4,6 +4,7 @@ import './ContactoFooter.css'
 const ContactoFooter = () => {
   return (
     <div>
+      <footer id="main-footer" className="add-padding border-top-color2">
       <section id="contact" className="add-padding border-top-color2">
         <div className="container text-center">
           <div className="row">
@@ -85,16 +86,6 @@ const ContactoFooter = () => {
         </div>
       </section>
 
-      <footer id="main-footer" className="add-padding border-top-color2">
-        <div className="container">
-          <p><a href="http://korenlc.com" target="_blank" rel="noopener noreferrer">VISIT MY BLOG</a></p><br />
-          <ul className="social-links text-center">
-            <li><a href="https://twitter.com/korenlc" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter fa-fw" /></a></li>
-            <li><a href="https://plus.google.com/u/0/+KLCohen/posts/p/pub" target="_blank" rel="noopener noreferrer"><i className="fa fa-google-plus fa-fw" /></a></li>
-            <li><a href="https://www.linkedin.com/in/korenlesliecohen" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin fa-fw" /></a></li>
-          </ul>
-          <p className="text-center">&copy; 2014 - Koren Leslie Cohen</p>
-        </div>
       </footer>
     </div>
   );

@@ -1,84 +1,51 @@
-/* Add some general styling */
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .add-padding {
-    padding: 20px;
-  }
-  
-  .border-top-color2 {
-    border-top: 2px solid #555; /* Adjust the color as needed */
-  }
-  
-  /* Style the big text */
-  .big-text {
-    font-size: 32px;
-    color: #333; /* Adjust the color as needed */
-    margin-bottom: 10px;
-  }
-  
-  /* Style the lead text */
-  .lead {
-    font-size: 18px;
-    color: #777; /* Adjust the color as needed */
-    margin-bottom: 20px;
-  }
-  
-  /* Style the paragraph text */
-  p {
-    font-size: 16px;
-    color: #555; /* Adjust the color as needed */
-    margin-bottom: 10px;
-  }
-  
-  /* Style the link */
-  a {
-    color: #007bff; /* Adjust the color as needed */
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Style the form */
-  #contact-form {
-    margin-top: 20px;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  .control-label {
-    font-size: 18px;
-    color: #333; /* Adjust the color as needed */
-  }
-  
-  .form-control {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc; /* Adjust the color as needed */
-  }
-  
-  textarea.form-control {
-    resize: vertical;
-  }
-  
-  .btn-color2 {
-    background-color: #555; /* Adjust the color as needed */
-    color: #fff; /* Text color */
-    font-size: 18px;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .btn-color2:hover {
-    background-color: #444; /* Adjust the hover color as needed */
-  }
-  
+
+#main-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+#contact {
+  background-color: #555;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.big-text {
+  font-size: 2em;
+  color: #ffcc00;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.controls {
+  position: relative;
+}
+
+.controls i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ccc;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+.btn-color2 {
+  background-color: #ffcc00;
+  color: #333;
+}
+
