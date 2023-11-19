@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import './Home.css'
+import './MisCreaciones.css'
+import { useFavoritos } from '../FavoritosContext';
 
-function Home() {
+function MisCreaciones() {
+  const { agregarAFavoritos } = useFavoritos();
+
   const [TPS, setTPS] = useState([]);
 
   useEffect(() => {
@@ -13,8 +16,9 @@ function Home() {
   }, []);
 
   return (
-    <div className="home-container">
+    <div className="miscreaciones-container">
       <h1>Todos mis tps</h1>
+      <p>Estos son todos mis proyectos:</p>
       {TPS.map((TPS, index) => (
         <div className="creacion-card" key={index}>
           <h3>{TPS.titulo}</h3>
@@ -24,10 +28,11 @@ function Home() {
           <a href={TPS.url} target="_blank" rel="noopener noreferrer">
             Github con el proyecto
           </a>
+          <button onClick={() => agregarAFavoritos(TPS)}>Agregar a favoritos</button>
         </div>
       ))}
     </div>
   );
 }
 
-export default Home;
+export default MisCreaciones;

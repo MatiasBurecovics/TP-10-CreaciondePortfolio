@@ -1,0 +1,56 @@
+.favoritos-container {
+    background-color: #444;
+    color: #ddd;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #ff9900;
+  }
+  
+  .favorito-card {
+    background-color: #666;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+    color: #ff9900;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  a {
+    color: #ff9900;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #ff9900;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ffcc00;
+  }
+  

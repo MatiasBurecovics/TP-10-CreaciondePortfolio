@@ -44,7 +44,7 @@
   "TP7": {
     "titulo": "TP 7: Directorio de personas",
     "descripcion": "El objetivo de este TP es utilizar React Router para generar una aplicación en React que contenga más de una ruta. Se recomienda leer con atención la presentación de React Router. La aplicación tendrá: Página index o home: mostrará un listado de personas, y un menú para la navegación entre páginas. Página persona: recibirá un ID por parámetro en la URL y mostrará la información de esa persona. Página estadísticas: Mostrará datos de todas las personas: Cuántos mayores de 35 años hay Quién es la persona de mayor edad, y si hay más de una todos los nombres. Quién es la persona de menor edad, y si hay más de una todos los nombres. Página de contacto: mostrará un formulario para ingresar nombre, apellido, email y edad. No hace falta que haga nada el formulario.",
-    "imagenes": "https://media.istockphoto.com/id/1318515492/es/vector/grupo-de-hombres-y-mujeres-seis-personas-de-pie-en-una-fila-ilustraci%C3%B3n-vectorial-de-grupo.jpg?s=612x612&w=0&k=20&c=mxZviZ781bK9vVVaVbMuWZqalSFaeCS4zxTV697eqvo=",
+    "imagenes": "https://previews.123rf.com/images/bettystrange/bettystrange1611/bettystrange161100174/67488801-mano-que-sostiene-un-tel%C3%A9fono-celular-con-los-contactos-de-las-personas-concepto-elija-persona.jpg",
     "fechaCreacion": "06-09-2023",
     "url": "https://github.com/MatiasBurecovics/TP7_DIRECTORIO"
   },

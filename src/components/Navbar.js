@@ -15,6 +15,7 @@ const CustomNavbar = () => {
               <Link className="nav-link active" to="/infopersonal">Info Personal</Link>
               <Link className="nav-link active" to="/miscreaciones">Mis creaciones</Link>
               <Link className="nav-link active" to="/favoritos">Favoritos </Link>
+              <Link className="nav-link active" to="/equipo">Equipo de trabajo </Link>
           </Nav>
       </Container>
   </Navbar>

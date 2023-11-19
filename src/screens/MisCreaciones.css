@@ -1,0 +1,62 @@
+.miscreaciones-container {
+    background-color: #444;
+    color: #ddd;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #ffcc00;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .creacion-card {
+    background-color: #666;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+    color: #ffcc00;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  a {
+    color: #ffcc00;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ffcc00;
+  }
+  
